@@ -1,0 +1,46 @@
+Basics of HTTP :
+
+HTTP is an extensible protocol that relies on concepts like resources and Uniform Resource Identifiers (URIs), 
+simple message structure, and client-server communication flow. On top of these basic concepts, numerous 
+extensions have been developed over the years that add updated functionality and semantics with new HTTP 
+methods or headers.
+
+An overview of HTTP :
+
+HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange 
+on the Web and it is a client-server protocol, which means requests are initiated by the recipient, 
+usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, 
+for instance, text, layout description, images, videos, scripts, and more.
+
+Components of HTTP-based systems :
+
+HTTP is a client-server protocol: requests are sent by one entity, the user-agent (or a proxy on behalf of it).
+Most of the time the user-agent is a Web browser, but it can be anything, for example, a robot that crawls the
+Web to populate and maintain a search engine index.
+
+Evolution of HTTP :
+
+HTTP (HyperText Transfer Protocol) is the underlying protocol of the World Wide Web. Developed by Tim Berners-Lee
+and his team between 1989-1991, HTTP has gone through many changes that have helped maintain its simplicity while 
+shaping its flexibility. Keep reading to learn how HTTP evolved from a protocol designed to exchange files in a 
+semitrusted laboratory environment into a modern internet maze that carries images and videos in high resolution and 3D.
+
+Invention of the World Wide Web :
+
+In 1989, while working at CERN, Tim Berners-Lee wrote a proposal to build a hypertext system over the internet. 
+Initially called the Mesh, it was later renamed the World Wide Web during its implementation in 1990. Built over the 
+existing TCP and IP protocols, it consisted of 4 building blocks:
+
+A textual format to represent hypertext documents, the HyperText Markup Language (HTML).
+A simple protocol to exchange these documents, the HyperText Transfer Protocol (HTTP).
+
+HTTP Messages :
+
+HTTP messages are how data is exchanged between a server and a client.There are two types of messages: requests sent
+by the client to trigger an action on the server, and responses, the answer from the server.
+
+HTTP messages are composed of textual information encoded in ASCII, and span over multiple lines. 
+
+In HTTP/1.1, and earlier versions of the protocol, these messages were openly sent across the connection. 
+In HTTP/2, the once human-readable message is now divided up into HTTP frames, providing optimization and performance improvements.
+
