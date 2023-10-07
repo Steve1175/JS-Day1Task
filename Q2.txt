@@ -1,0 +1,49 @@
+Basics of HTTPS:
+
+HTTPS stands for HyperText Transfer Protocol Secure. It is the most common protocol for sending
+data between a web browser and a website. It is the secure variant of HTTP used for communication
+between the browser and the webserver.  In order to make the data transfer more secure, it is 
+encrypted. Encryption is required to ensure security while transmitting sensitive information 
+like passwords, contact information, etc. 
+
+How Does HTTPS Work?
+
+HTTPS is a secure variant of HTTP that encrypts data before it is sent. It functions by encrypting
+the data you transmit and receive online. The browser and the server work together to create a secure
+connection when a user requests a web page served over HTTPS.
+
+HTTPS is commonly used to protect confidential information on websites, such as credit card numbers, 
+passwords, or other sensitive information. It is also becoming increasingly popular for protecting 
+non-confidential information, such as general web browsing activities. This is because newer browsers 
+are starting to mark sites that use HTTP as “not secure” to encourage HTTPS use further.
+
+How HTTPS Works Step by Step:
+
+Step 1: The client (such as a web browser) sends an HTTP request to the web server.
+
+Step 2: The web server receives the request and responds with a digital certificate as an SSL Certificate
+containing a public key.
+
+Step 3: The client verifies that the certificate is valid, and if so, it uses the public key to encrypt 
+and send back its own symmetric key. This is known as a “handshake” between the two parties.
+
+Step 4: The server then decrypts this symmetric key using its private key, giving it access to all messages
+sent from the client.
+
+Step 5: The server and client then use the symmetric key to encrypt and decrypt all messages sent between
+them, ensuring that no one else can intercept and read them.
+
+Step 6: When the communication is complete, both parties discard the symmetric key. This ensures that any 
+further communications must be re-encrypted with a new key.
+
+How Is HTTPS Different From HTTP?
+
+The secure variant of the HTTP protocol is called HTTPS, by which webpages are shared over the internet.
+While HTTPS and HTTP may appear similar to the everyday user, they have a few distinct differences; 
+most importantly, HTTPS data is encrypted during transmission.
+
+HTTPS uses TLS/SSL certificates to encrypt data before sending it over a connection. This encryption adds 
+extra security for critical connections, such as banking or entering credit card information. Encryption 
+does, however, slow down page loading times compared to non-secured websites using HTTP, which is one of
+the downsides to using HTTPS instead of HTTP. Authentication also helps distinguish legitimate websites
+from malicious ones, helping protect against malicious activities like phishing and spoofing. 
